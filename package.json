@@ -1,0 +1,32 @@
+{
+    "name": "demo-net",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Network demo",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yanJyli/demo-net.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yanJyli/demo-net/issues"
+    },
+    "homepage": "https://github.com/yanJyli/demo-net#readme",
+    "devDependencies": {
+        "eslint": "^8.1.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-prettier": "^4.0.0",
+        "json-server": "^0.17.0",
+        "prettier": "2.4.1"
+    },
+    "dependencies": {
+        "node-fetch": "^3.0.0"
+    }
+}

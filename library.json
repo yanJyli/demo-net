@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "firstName": "Oliver",
+      "lastName": "Taylor",
+      "birthDate": "2005-01-16T18:57:47.560Z",
+      "id": 1
+    },
+    {
+      "firstName": "Olivia",
+      "lastName": "Harris",
+      "birthDate": "2004-06-08T17:57:47.576Z",
+      "id": 2
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Thompson",
+      "birthDate": "2003-02-21T18:57:47.577Z",
+      "id": 3
+    },
+    {
+      "firstName": "Noah",
+      "lastName": "Smith",
+      "birthDate": "2005-08-22T17:57:47.578Z",
+      "id": 4
+    },
+    {
+      "firstName": "Ella",
+      "lastName": "Smith",
+      "birthDate": "2003-01-18T18:57:47.578Z",
+      "id": 5
+    },
+    {
+      "firstName": "Olivia",
+      "lastName": "Martin",
+      "birthDate": "2004-10-20T17:57:47.579Z",
+      "id": 6
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Anderson",
+      "birthDate": "2005-07-22T17:57:47.579Z",
+      "id": 7
+    },
+    {
+      "firstName": "Poppy",
+      "lastName": "Jones",
+      "birthDate": "2007-03-16T18:57:47.579Z",
+      "id": 8
+    },
+    {
+      "firstName": "Mia",
+      "lastName": "Garcia",
+      "birthDate": "2007-03-17T18:57:47.580Z",
+      "id": 9
+    },
+    {
+      "firstName": "Harry",
+      "lastName": "Brown",
+      "birthDate": "2008-09-20T17:57:47.580Z",
+      "id": 10
+    },
+    {
+      "firstName": "Alfie",
+      "lastName": "Garcia",
+      "birthDate": "2007-01-13T18:57:47.581Z",
+      "id": 11
+    },
+    {
+      "firstName": "Jacob",
+      "lastName": "Brown",
+      "birthDate": "2007-05-11T17:57:47.581Z",
+      "id": 12
+    },
+    {
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "birthDate": "2007-10-22T17:57:47.582Z",
+      "id": 13
+    },
+    {
+      "firstName": "Ella",
+      "lastName": "Taylor",
+      "birthDate": "2006-05-09T17:57:47.583Z",
+      "id": 14
+    },
+    {
+      "firstName": "Ella",
+      "lastName": "Davis",
+      "birthDate": "2005-04-19T17:57:47.583Z",
+      "id": 15
+    }
+  ],
+  "books": [],
+  "authors": [],
+  "bookReservations": []
+}
