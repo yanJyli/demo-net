@@ -18,4 +18,3 @@ sortedUsers().then();
 sortLastName().then();
 sortFirstName().then();
 // repeat 5 times on the same database
-//

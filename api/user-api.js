@@ -65,4 +65,11 @@ const updateUser = async (id, newUserFields) => {
 	return result;
 };
 
+//SORT
+//const getSortedUsers = async () => {
+//const response = await fetch(`${apiBase}${Endpoints.users}?_sort=birthDate&_order=asc`);
+//const users = await response.json();
+//return users;
+//};
+
 export { getUsers, addUser, deleteUser, replaceUser, updateUser, usersId };

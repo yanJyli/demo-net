@@ -1,6 +1,5 @@
 /* eslint-disable semi */
 
-
 import { getRandomIntInclusive } from '../util/util.js';
 
 const getRandomBirthDate = (minAge, maxAge) => {

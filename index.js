@@ -40,7 +40,7 @@ const replace = async () => { for (let i = 0; i < 5; i++) {
 	const number = getRandomIntInclusive(0, fullArray.length - 1);
 	await replaceUser(fullArray[number], newUser);
 }
-}
+};
 
 // update 5 random users (random field for each user)
 const update = async () => { for (let i = 0; i < 5; i++) {
@@ -51,23 +51,25 @@ const update = async () => { for (let i = 0; i < 5; i++) {
 	const number = getRandomIntInclusive(0, fullArray.length - 1);
 	await updateUser(fullArray[number], newUserField);
 }
-}
+};
 
 // list all users in alphabet order. Sort by last name then by first name
 const sortLastName = async () => {
 	const users = await getUsers()
 	users.sort((a, b) => {
-		a.lastName > b.lastName ? 1 : -1
+		return a.LastName.localeCompare(b.LastName, ['en'],)
 	})
-	console.log('Sort by LastName' + '\n', users);
+	console.log('Sort by LastName')
+	console.log(users)
 }
 
 const sortFirstName = async () => {
 	const users = await getUsers()
 	users.sort((a, b) => {
-		a.firstName > b.firstName ? 1 : -1
+		return a.firstName.localeCompare(b.firstName, ['en'], {caseFirst: 'upper'})
 	})
-	console.log('Sort by FirstName' + '\n', users);
+	console.log('Sort by FirstName')
+	console.log(users)
 }
 
 export {usersCount, mainAddUser, deletedUsersId, sortedUsers, replace, update, sortLastName, sortFirstName}
